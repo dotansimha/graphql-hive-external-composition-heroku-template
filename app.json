@@ -1,0 +1,22 @@
+{
+  "name": "GraphQL-Hive External Composition Service",
+  "description": "A template for creating a GraphQL-Hive External Composition Service for Apollo Federation v2",
+  "repository": "https://github.com/dotansimha/graphql-hive-external-composition-heroku-template",
+  "logo": "https://the-guild.dev/graphql/hive/just-logo.svg",
+  "website": "https://docs.graphql-hive.com/management/external-schema-composition",
+  "image": "heroku/nodejs",
+  "keywords": [
+    "graphql",
+    "hive",
+    "apollo",
+    "external",
+    "composition",
+    "federation"
+  ],
+  "env": {
+    "SECRET": {
+      "description": "A secret key for verifying the integrity of the payload sent by Hive.",
+      "generator": "secret"
+    }
+  }
+}
