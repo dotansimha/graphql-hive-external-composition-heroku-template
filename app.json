@@ -16,7 +16,7 @@
   "env": {
     "SECRET": {
       "description": "A secret key for verifying the integrity of the payload sent by Hive.",
-      "generator": "secret"
+      "value": ""
     }
   }
 }
